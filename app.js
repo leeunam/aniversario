@@ -29,7 +29,6 @@ function clickSound() {
     o.stop(t + 0.12);
   } catch (_) {}
 }
-
 /* ===== Conteúdo ===== */
 const CARDS = [
   {
