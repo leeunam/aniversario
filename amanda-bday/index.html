@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Para você, Amanda 💛</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+    <main class="app">
+      <header class="top">
+        <div class="pill">🎁 Surpresa</div>
+        <h1 class="h1">Oi, Amanda!</h1>
+        <p class="sub">(meu amor)</p>
+      </header>
+
+      <section id="screen" class="stage" aria-live="polite"></section>
+    </main>
+
+    <!-- Overlay (última carta) -->
+    <div id="overlay" class="overlay hidden" role="dialog" aria-modal="true">
+      <div class="overlayCard">
+        <div class="sparkle">✨</div>
+        <p id="overlayText" class="overlayTitle">
+          A última carta deixa que eu abro pra você.
+        </p>
+        <p class="overlayHint">Só um pouquinho…</p>
+        <div class="bar"><div id="barFill"></div></div>
+      </div>
+    </div>
+  </body>
+</html>
